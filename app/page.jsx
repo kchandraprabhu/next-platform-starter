@@ -68,15 +68,3 @@ function RuntimeContextCard() {
     }
 }
 
-const page = () => {
-    return (
-      <>
-        
-        {/* Banner One */}
-        <BannerOne />
-  
-  
-      </>
-    );
-  };
-  
