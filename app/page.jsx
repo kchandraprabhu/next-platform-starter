@@ -4,10 +4,12 @@ import { RandomQuote } from 'components/random-quote';
 import { Markdown } from 'components/markdown';
 import { ContextAlert } from 'components/context-alert';
 import { getNetlifyContext } from 'utils';
+import {BannerOne} from 'components/BannerOne';
 
 const cards = [
     //{ text: 'Hello', linkText: 'someLink', href: '/' }
 ];
+
 
 const contextExplainer = `
 The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
@@ -65,3 +67,16 @@ function RuntimeContextCard() {
         return <Card title={title} text="This page was statically-generated at build time." />;
     }
 }
+
+const page = () => {
+    return (
+      <>
+        
+        {/* Banner One */}
+        <BannerOne />
+  
+  
+      </>
+    );
+  };
+  
